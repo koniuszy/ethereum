@@ -1,6 +1,9 @@
 {
   "scripts": {
-    "compile": "yarn hardhat compile"
+    "compile": "yarn hardhat compile",
+    "test": "yarn hardhat test",
+    "deploy": "yarn hardhat run scripts/deploy.ts",
+    "node": "yarn hardhat node"
   },
   "devDependencies": {
     "@ethersproject/abi": "^5.4.7",
